@@ -32,7 +32,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='flex items-center justify-center p-6 w-screen'>
+        <div className='bg-white flex items-center justify-center p-6 w-screen sticky'>
             <div className='flex items-center ml-5'>
                 <img src={googleLogo} className='w-20'/>
                 <h1 className='text-gray-500 text-2xl font-medium ml-3'>News</h1>
